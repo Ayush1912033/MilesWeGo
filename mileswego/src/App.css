@@ -1,38 +1,246 @@
-.App {
-  text-align: center;
+main{
+  padding: 0px;
+  
+  margin: 0 auto;
 }
+header{
+  display:flex;
+  justify-content:space-between;
+  
+  background-color: #e7e7e6;
+  min-height: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
 }
+header a{
+  color: white;
+  text-decoration: none;
+  min-height: 30px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+header nav{
+  display:flex;
+  margin-right: 4%;
+  gap: 30px;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+nav a{
+  max-height: 48px;
+  background-color: orangered;
+  
+  padding: 1px 5px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+.home {
+  display: flex;
+  height: 100vh;
+  background-image: url("./images/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning-4.jpg");
+  background-size: cover;
+}
+.content{
+  
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1vh;
+  
+  margin-left: 150px;
+  color: white;
+  
+}
+.content h1{
+  font-size: 100px;
+  font-weight: bolder;
+  
+  
+}
+.content h2{
+  font-size: 64px;
+  margin: 0;
+  padding: 0%;
+  max-width: 550px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.content h3{
+  
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px; 
+}
+.title h1{
+  
+  font-size: 54px;
+  font-weight: bolder;
+  margin-left: 4%;
+
+}
+.home1{
+  display: flex;
+  height: 96vh;
+  background-color: #e7e7e6;
+}
+
+
+.content1 {
+  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  max-height: 90vh;
+  width: 900px;
+  background-color: black;
+  border: 2px solid orangered;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  padding: 10px; 
+}
+
+.trending{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  max-width: 1200px;
+  max-height: 30vh;
+  width: 230px;
+  background-color: white;
+  border: 2px solid orangered;
+  margin-top: 50px;
+  
+}
+.trending img{
+  height: 100%;
+}
+
+.home2{
+  display: flex;
+  height: 46vh;
+  background-color: #e7e7e6;
+}
+.content2{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  max-height: 40vh;
+  width: 900px;
+  
+  background-color: black;
+  border: 2px solid orangered;
+  padding: 50px; 
+
+  
+
+
+}
+.content2 Swiper{
+  height: 100%;
+  max-width: 1200px;
+  display: flex;
+}
+.swiper-container {
+  width: 900px; 
+  height: 40vh; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+  background-color: black;
+}
+.swiper-wrapper {
+  height: 100%; 
+  display: flex; 
+}
+
+
+.swiper-slide {
+  
+  height: 400px;
+  background: #f0f0f0;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 18px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.home2, .content2 {
+  overflow: hidden;
+}
+.content3{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  max-height: 90vh;
+  width: 900px;
+  
+  border: 2px solid orangered;
+  background-image: url('./images/india.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+
+ 
+}
+footer{
+  height: 30vh;
+}
+.home3{
+  display: flex;
+  height: 100vh;
+  background-color: #e7e7e6;
+}
+.home4{
+  display: flex;
+  height: 120vh;
+  background-color: #e7e7e6;
+  position: relative;
+  
+}
+.content4{
+  
+  margin-left: 300px;
+  margin-right: auto;
+  max-width: 1200px;
+  max-height: 700px;
+  width: 700px;
+  background-image: url('./images/mountain.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  
+  border: 2px solid orangered;
+  
+
+}
+.home4 .box1 {
+  position: absolute;
+  top: 500px; 
+  left: 800px; 
+  width: 600px;
+  height: 400px;
+  background-color: white; 
+  border-radius: 10%;
+}
+.content5{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  max-height: 90vh;
+  width: 900px;
+  
+  border: 2px solid orangered;
+
 }
